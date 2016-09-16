@@ -1,0 +1,10 @@
+# Used by Lib/test/test_robotparser.py
+
+# No one should be crawling us with Nutch.
+User-agent: Nutch
+Disallow: /
+
+# Hide old versions of the documentation and various large sets of files.
+User-agent: *
+Disallow: /~guido/orlijn/
+Disallow: /webstats/
