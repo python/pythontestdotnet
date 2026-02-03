@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /no-robots-here/
+Crawl-delay: 6
+Request-rate: 1/1
